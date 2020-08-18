@@ -12,3 +12,10 @@ The calculator clear to zero the current value.
 The calculator shows an error message when the user tries to divide by zero.
 
 I am in the process of incorporating unit test in to the Calculator
+
+Calculator :
+This calculator has been built using the following technologies based on a Tutorial which I followed in FreeCodeCamp:
+
+Vanilla Javascript
+HTML 5
+CSS - grid layout
