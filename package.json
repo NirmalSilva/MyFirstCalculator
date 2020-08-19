@@ -1,0 +1,27 @@
+{
+  "name": "myfirstcalculator",
+  "version": "1.0.0",
+  "description": "Functionality:\r The calculator meets the following requirements :",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NirmalSilva/MyFirstCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NirmalSilva/MyFirstCalculator/issues"
+  },
+  "homepage": "https://github.com/NirmalSilva/MyFirstCalculator#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
