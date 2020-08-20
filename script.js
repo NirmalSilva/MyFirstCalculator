@@ -5,6 +5,8 @@ const keys = calculator.querySelector(".calculator__keys");
 // Selecting the display section of the calculator
 const display = document.querySelector(".calculator__display");
 
+import { calculate } from "./calculate.js";
+
 // Adding an event listener to track the  event triggered when a key is pressed
 keys.addEventListener("click", (e) => {
   // Matching whether the even triggered is via a button
@@ -126,19 +128,19 @@ keys.addEventListener("click", (e) => {
   }
 });
 
-const calculate = (n1, operator, n2) => {
-  // Perform calculation and return calculated value
-  let result = "";
+// const calculate = (n1, operator, n2) => {
+//   // Perform calculation and return calculated value
+//   let result = "";
 
-  if (operator === "add") {
-    result = parseFloat(n1) + parseFloat(n2);
-  } else if (operator === "subtract") {
-    result = parseFloat(n1) - parseFloat(n2);
-  } else if (operator === "multiply") {
-    result = parseFloat(n1) * parseFloat(n2);
-  } else if (operator === "divide") {
-    result = parseFloat(n1) / parseFloat(n2);
-  }
+//   if (operator === "add") {
+//     result = parseFloat(n1) + parseFloat(n2);
+//   } else if (operator === "subtract") {
+//     result = parseFloat(n1) - parseFloat(n2);
+//   } else if (operator === "multiply") {
+//     result = parseFloat(n1) * parseFloat(n2);
+//   } else if (operator === "divide") {
+//     result = parseFloat(n1) / parseFloat(n2);
+//   }
 
-  return result;
-};
+//   return result;
+// };
